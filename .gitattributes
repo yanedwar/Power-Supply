@@ -1,0 +1,20 @@
+# auto-detect text files
+* text=auto
+
+# source files
+*.c   text eol=lf
+*.h   text eol=lf
+*.cpp text eol=lf
+
+# scripts
+*.sh  text eol=lf
+*.py  text eol=lf
+
+# cubeIDE/STM32 files
+*.ioc text eol=lf
+*.ld  text eol=lf
+
+# binary files
+*.bin binary
+*.elf binary
+*.hex binary
