@@ -1,7 +1,7 @@
 # DIY Bench Power Supply Project
 Embedded firmware for a STM32 chip to implement a graphical front end on an DIY Bench Power Supply.
 
-![Bench Power Supply](./assets/Power%20Supply.jpg)
+![Bench Power Supply](./assets/power_supply.jpg)
 
 ## Firmware design
 The firmware is designed to handle six distinct tasks. 
@@ -12,7 +12,7 @@ The firmware is designed to handle six distinct tasks.
 5. Support different display modes (edit mode, graph mode, ADC raw display, summary mode)
 6. Run a loop to implement everything smoothly
 
-![Current Sense Module](./assets/Current%20Sense%20Module.jpg)
+![Current Sense Module](./assets/current_sense_module.jpg)
 
 ## General Project Information
 The power supply has two modes of operation, <ins>Constant Voltage Mode</ins> and <ins>Current Limiting Mode</ins>.
